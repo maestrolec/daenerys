@@ -1,0 +1,167 @@
+
+body {
+    background-color: #000000;
+}
+
+.fixed-title {
+    width: 100%;
+    position: fixed;
+}
+
+.header {
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: Lobster, cursive;
+}
+
+#main {
+    margin-top: 5px;
+}
+
+.nav {
+    float: left;
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 10%;
+    text-transform: uppercase;
+}
+
+.nav li.menu-selected {
+    background-color: #000000;
+    text-decoration: none;
+    
+}
+
+.nav li a.menu-selected {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+
+.nav li a{
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 2px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.nav li:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav a {
+    color: #000000;
+}
+
+.nav a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#tutorial-view {
+    width: 100%;
+    height: 62%;
+    padding-top: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #D8D8D8;
+}
+
+#scales {
+    display: none;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-left: 30%;
+    height: 62%;
+    background-color: #D8D8D8;
+    overflow-y: hidden;
+}
+
+#scale-chord-field {
+    display: none;
+}
+
+#chords {
+    display: none;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-left: 30%;
+    height: 62%;
+    background-color: #D8D8D8;
+    overflow-y: hidden;
+}
+
+#chord-field {
+    display: none;
+}
+
+#chord-name-field {
+    text-align: center;
+    font-size: 30px;
+    margin-left: -75%;
+}
+
+#about {
+    height: 20%;
+    margin-left: 10%;
+}
+
+#piano {
+    padding-left: 3%;
+    padding-top: 3%;
+    height: 38%;
+    background-color: #F0F0F0;
+}
+
+#piano-wrapper {
+    left: 10%;
+    display: inline;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.white-key {
+    display: block;
+    //width: 42px;
+    width: 34px;
+    height: 170px;
+    float: left;
+    //border: 2px solid black;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+
+.black-key {
+    display: block;
+    position: absolute;
+    //width: 30px;
+    width: 24px;
+    height: 100px;
+    //border: 3px solid black;
+    border: 2px solid black;
+    background-color: #000000;
+}
+
+#piano div.highlighted {
+    background-color: #3366CC;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    background-color: #000000;
+    display: inline;
+    width: 100%;
+    height: 3.1%;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Key Cheat</title>
+        <link rel="icon" type="image/png" href="assets/piano-icon.png" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>-->
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        
+    </head>
+    <body>
+        <div class = "fixed-title">
+            <div class = "header">
+                <div class = "container">
+                    <h2>Chordigo</h2>
+                    <h5>A Pianist's Short Guide To Ouidoing</h3>
+                </div>
+            </div>
+            <div class = "nav">
+                <ul class = "sidebar-nav">
+                    <li><a href = "#scales">Scales</a></li>
+                    <li><a href = "#chords">Chords</a></li>
+                   <!--<li><a href = "#about">About</a></li>-->
+                </ul>    
+            </div>
+        </div>
+        <div id = "main">
+            <div id = "tutorial-view">
+                <div id = "scales">
+                    <div class = container">
+                        <label>Select a Scale:</label>
+                        <select id = "scales-list" class = "">
+                            <option value = 0>--Choose One--</option>
+                            <option value = 1>C Major</option>
+                            <option value = 2>G Major</option>
+                            <option value = 3>D Major</option>
+                            <option value = 4>A Major</option>
+                            <option value = 5>E Major</option>
+                            <option value = 6>B Major</option>
+                            <option value = 7>F Major</option>
+                            <option value = 8>Bb Major</option>
+                            <option value = 9>Eb Major</option>
+                            <option value = 10>Ab Major</option>
+                            <option value = 11>Db/C# Major</option>
+                            <option value = 12>Gb/F# Major</option>
+                        </select>
+                        <br><br>
+                        <div id = "scale-chord-field">
+                            <label>Select a Chord:</label>
+                            <select id = "scales-chord-list" class = "">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div id = "chords">
+                    <div class = container">
+                        <label>Select a Key:</label>
+                        <select id = "key-list" class = "">
+                            <option value = 0>--Choose One--</option>
+                            <option value = 1>C</option>
+                            <option value = 2>C#/Db</option>
+                            <option value = 3>D</option>
+                            <option value = 4>D#/Eb</option>
+                            <option value = 5>E</option>
+                            <option value = 6>F</option>
+                            <option value = 7>F#/Gb</option>
+                            <option value = 8>G</option>
+                            <option value = 9>G#/Ab</option>
+                            <option value = 10>A</option>
+                            <option value = 11>A#/Bb</option>
+                            <option value = 12>B</option>
+                        </select>
+                        <br><br>
+                        <div id = "chord-field">
+                            <label>Select a Chord:</label>
+                            <select id = "chord-list" class = "">
+                                <option value = '0'>--Choose One--</option>
+                                <option value = '1'>major</option>
+                                <option value = '2'>minor (m)</option>
+                                <option value = '3'>7th (7)</option>
+                                <option value = '4'>minor 7th (m7)</option>
+                                <option value = '5'>major 7th (M7)</option> 
+                                <option value = '6'>6th (6)</option>
+                                <option value = '7'>minor 6th (m6)</option>
+                                <option value = '8'>9th (9)</option>
+                                <option value = '9'>minor 9th (m9)</option>
+                                <option value = '10'>11th (11)</option>
+                                <option value = '11'>minor 11th (m11)</option>
+                                <option value = '12'>13th (13)</option>
+                                <option value = '13'>suspended 2nd (sus2)</option>
+                                <option value = '14'>suspended 4th (sus4)</option>
+                                <option value = '15'>diminished (dim)</option>
+                                <option value = '16'>diminished 7th (dim7)</option>
+                                <option value = '17'>half-diminished (m7b5)</option>
+                                <option value = '18'>augmented (aug)</option>
+                                <option value = '19'>augmented 7th (aug7)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br><br><br><br><br>
+                    <div id = "chord-name-field"></div>
+                </div>
+            </div>
+            <div id = "piano-wrapper">
+                <div id = "piano">
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 22px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 57px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 124px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 159px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 194px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 261px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 296px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 360px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 395px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 430px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 497px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 532px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 599px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 634px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 669px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 736px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 771px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 838px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 873px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 908px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 975px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1010px"></div>
+                    <div class = "white-key"></div>
+                    
+                    <!--
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 27px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 69px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 153px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 195px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 237px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 320px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 362px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 447px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 489px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 531px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 615px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 657px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 741px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 783px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 825px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 909px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 951px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1035px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1077px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1119px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1203px"></div>
+                    <div class = "white-key"></div>
+                    <div class = "black-key" style = "margin-left: 1245px"></div>
+                    <div class = "white-key"></div>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class = "footer"><iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fmaestrolec&color=white_transparent&size=16" style="padding-top: 3px; width: 16px; height: 16px;"></iframe>
+                 � 2014 Maestro Lec</div>
+        
+        <!-- scripts -->
+        <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        
+        <script type="text/javascript" src="js/cheatsheet-scale.js"></script>
+        <script type="text/javascript" src="js/cheatsheet-chord.js"></script>
+        <script type="text/javascript" src="js/cheatsheet-main.js"></script>
+    </body>
+</html>
